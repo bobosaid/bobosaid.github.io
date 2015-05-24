@@ -1053,7 +1053,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffffc2;
+  background: #e3fcff;
 }
 .sidebar-nav {
   margin: 0;
@@ -1821,6 +1821,7 @@ h6 {
 }
 p {
   margin: 10px 0;
+  text-indent: 2em;
 }
 a {
   border-bottom-color: #bbb;
