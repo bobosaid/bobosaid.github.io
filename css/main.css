@@ -292,6 +292,9 @@ h5,
 h6 {
   margin: 60px 0 15px;
 }
+img {
+  margin: auto;
+}
 ul {
   list-style: square;
 }
@@ -1053,7 +1056,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9504ff;
+  background: #32bd17;
 }
 .sidebar-nav {
   margin: 0;
