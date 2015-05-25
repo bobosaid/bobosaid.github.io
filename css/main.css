@@ -80,6 +80,7 @@ sub {
 }
 img {
   border: 0;
+  margin: auto;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -291,9 +292,6 @@ h4,
 h5,
 h6 {
   margin: 60px 0 15px;
-}
-img {
-  margin: auto;
 }
 ul {
   list-style: square;
@@ -1056,7 +1054,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #32bd17;
+  background: #1bfe7a;
 }
 .sidebar-nav {
   margin: 0;
