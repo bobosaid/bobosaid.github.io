@@ -854,24 +854,28 @@ body {
 .logo {
   display: inline-block;
   margin-right: 5px;
-  line-height: 36px;
+  line-height: 48px;
   vertical-align: top;
+}
+.logo img {
+  height: 48px;
+  over-flow: hidden;
+  position: relative;
 }
 .site-title {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   line-height: 36px;
   font-size: 20px;
   font-weight: normal;
+  top: 15px;
 }
 .use-motion .brand {
   opacity: 0;
 }
 .use-motion .logo,
 .use-motion .site-title {
-  opacity: 0;
   position: relative;
-  top: -10px;
 }
 .menu {
   margin-top: 20px;
@@ -1054,7 +1058,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c1ff0e;
+  background: #a1a658;
 }
 .sidebar-nav {
   margin: 0;
@@ -1879,12 +1883,9 @@ hr {
     display: block;
   }
 }
-.site-meta .logo {
-  display: none;
-}
 .site-meta .site-title {
-  font-size: 24px;
-  font-weight: bolder;
+  font-size: 36px;
+  font-weight: normal;
 }
 @media (max-width: 767px) {
   .site-meta .site-title {
@@ -2055,4 +2056,7 @@ hr {
   max-width: 100%;
   width: auto;
   margin: 0;
+}
+.site-header {
+  display: inline-block;
 }
